@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(./fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: HindSiliguri;
+  src: url(../public/fonts/HindSiliguri-Regular.ttf);
+}
+
+@theme {
+  --color-primary: #f97316; /* Orange 500 */
+  --color-secondary: #2563eb; /* Blue 600 */
+  --color-background: #f3f4f6; /* Gray 100 */
+  --color-text: #1f2937; /* Gray 800 */
+
+  --font-ubuntu: 'Ubuntu', sans-serif;
+  --font-hind-siliguri: 'HindSiliguri', sans-serif;
+}
