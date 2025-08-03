@@ -10,7 +10,7 @@ const TopNav = () => {
         <div className='fixed top-0 w-full sm:w-sm md:w-full bg-mainbg text-white/90 font-Ubuntu border-b border-b-gray-700 z-10'>
             <section className=''>
                 {/* === Brand === */}
-                <div className='w-[90%] md:w-[90%] md:border-r md:border-r-gray-500 md:border-l md:border-l-gray-500 md:px-2 mx-auto flex items-center justify-between py-2'>
+                <div className='w-[90%] sm:w-[100%] md:w-[90%] lg:w-[90%] xl:-w[90%] 2xl:w-[90%] md:border-r md:border-r-gray-500 md:border-l md:border-l-gray-500 md:px-2 mx-auto flex items-center justify-between py-2'>
                     <h1 className='text-xl font-bold flex items-center'> <img className='bg-blue-400 w-[30px] h-[30px] rounded-full mr-2' src="" alt="" />Scorpion Diamond</h1>
                     {/* === Desktop Menu Items === */}
                     <div className='md:space-x-8'>
