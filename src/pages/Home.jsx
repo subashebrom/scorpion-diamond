@@ -4,13 +4,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Home = () => {
     return (
         <div className="w-full bg-primarybg md:bg-mainbg text-white/90 font-Ubuntu border-b border-b-gray-700 mt-10">
-            <section className="w-[90%] px-2 mx-auto pt-8  md:border-l md:border-l-gray-500 md:border-r md:border-r-gray-500 md:bg-primarybg">
+            <section className="w-[90%] px-2 mx-auto pt-8  md:border-l md:border-l-gray-500 md:border-r md:border-r-gray-500 md:bg-primarybg pb-8">
                 {/* === Search Box === */}
                 <div className="search-box-one px-2 py-2 md:w-2xl md:mx-auto">
                     <div className="search-box-two w-full px-1">
                         <input className="search-box-three w-full outline-none px-2" type="search" placeholder="Find Your Own Games" />
                         <span><FontAwesomeIcon icon={faSearch} /></span>
                     </div>
+                </div>
+                {/* === Adds Sliders for Mobile === */}
+                <div>
                 </div>
                 {/* ==== Game Cards === */}
                 <div className="mt-4 grid gap-6 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-4 xl:grid xl:grid-cols-4 2xl:grid 2xl:grid-cols-5">

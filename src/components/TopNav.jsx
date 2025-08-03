@@ -1,5 +1,5 @@
 import { faUser } from '@fortawesome/free-regular-svg-icons';
-import {  faBars, } from '@fortawesome/free-solid-svg-icons';
+import {  faBars, faBell, faHeart, } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NavLink } from 'react-router';
 import "../js/TopNav";
@@ -7,7 +7,7 @@ import "../css/TopNav.css";
 
 const TopNav = () => {
     return (
-        <div className='fixed top-0 w-full sm:w-sm md:w-full bg-mainbg text-white/90 font-Ubuntu border-b border-b-gray-700 z-10'>
+        <div className='fixed top-0 w-full sm:w-full md:w-full bg-mainbg text-white/90 font-Ubuntu border-b border-b-gray-700 z-10'>
             <section className=''>
                 {/* === Brand === */}
                 <div className='w-[90%] sm:w-[100%] md:w-[90%] lg:w-[90%] xl:-w[90%] 2xl:w-[90%] md:border-r md:border-r-gray-500 md:border-l md:border-l-gray-500 md:px-2 mx-auto flex items-center justify-between py-2'>
@@ -47,6 +47,7 @@ const TopNav = () => {
                                     Reviews
                                 </div>
                                 <div className="top-triangle"></div>
+
                                 <div className="btm-triangle"></div>
                             </div>
                         </div>
@@ -56,6 +57,8 @@ const TopNav = () => {
                         {/* ===Profile === */}
                         <div className='flex items-center space-x-2'>
                             <FontAwesomeIcon icon={faUser}/>
+                            <FontAwesomeIcon icon={faHeart}/>
+                            <FontAwesomeIcon icon={faBell}/>
                             <span id='mobile' className='md:hidden'><FontAwesomeIcon icon={faBars} /></span>
                         </div>
                         <div className='hidden flex-col w-full items-center md:hidden'>
