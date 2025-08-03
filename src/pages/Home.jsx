@@ -12,6 +12,69 @@ const Home = () => {
                         <span><FontAwesomeIcon icon={faSearch} /></span>
                     </div>
                 </div>
+                {/* ==== Game Cards === */}
+                <div className="mt-4 grid gap-4 md:grid md:grid-cols-5">
+                    <div className="game-card">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">FREE FIRE</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-card">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">FREE FIRE</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-card">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">FREE FIRE</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-card">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">FREE FIRE</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-card">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">FREE FIRE</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     );
