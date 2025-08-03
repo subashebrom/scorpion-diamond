@@ -1,0 +1,47 @@
+.active-Btn {
+  height: 40px;
+  clip-path: polygon(20% 0, 100% 0, 100% 60%, 80% 100%, 0 100%, 0 40%);
+}
+.desktop-Btn {
+  position: relative;
+}
+.desktop-Btn:hover {
+  .top-triangle {
+    visibility: visible;
+  }
+}
+
+.top-triangle {
+  position: absolute;
+  transition: ease-in-out 0.3s;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 12px;
+  background-color: #2b3550;
+  border: 1.5px solid #00c3ffd3;
+  clip-path: polygon(30% 0, 0 0, 0 100%);
+  visibility: hidden;
+}
+.desktop-Btn:hover {
+  .btm-triangle {
+    visibility: visible;
+  }
+}
+.btm-triangle {
+  position: absolute;
+  transition: ease-in-out 0.3s;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 12px;
+  background-color: #2b3550;
+  border: 1.5px solid #00c3ffd3;
+  clip-path: polygon(100% 100%, 100% 0, 70% 100%);
+  visibility: hidden;
+}
+.top-btn:hover {
+  .rtop-triangle {
+    visibility: visible;
+  }
+}

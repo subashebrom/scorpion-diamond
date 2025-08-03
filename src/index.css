@@ -11,10 +11,14 @@
 }
 
 @theme {
-  --color-primary: #f97316; /* Orange 500 */
-  --color-secondary: #2563eb; /* Blue 600 */
-  --color-background: #f3f4f6; /* Gray 100 */
-  --color-text: #1f2937; /* Gray 800 */
+    --color-mainbg: #000000;
+    --color-primarybg: #0F1524; 
+    --color-cardbg: #333333;
+    --color-border_clr: #bfbfbf;
+    --color-hoverbdr: #00C3FF;
+    --color-btnbg: #2b3550;
+    --color-searchhover: #00c3ff73;
+    --color-pcbg: #2b3550;
 
   --font-ubuntu: 'Ubuntu', sans-serif;
   --font-hind-siliguri: 'HindSiliguri', sans-serif;

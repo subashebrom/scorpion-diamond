@@ -2,7 +2,7 @@ import React from 'react';
 
 const Reviews = () => {
     return (
-        <div>
+        <div className="mt-22">
             reviews page
         </div>
     );
