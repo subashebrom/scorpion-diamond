@@ -1,0 +1,25 @@
+.search-box-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: #2b3550;
+  clip-path: polygon(100% 0, 100% 100%, 3% 100%, 0 80%, 0 0);
+}
+.search-box-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  background-color: #0f1524;
+  clip-path: polygon(100% 0, 100% 25%, 100% 100%, 0 100%, 0 0);
+  transition: ease-in-out 0.3s;
+}
+.search-box-three {
+  height: 40px;
+  background-color: #2b3550;
+  clip-path: polygon(97% 0, 100% 40%, 100% 100%, 0 100%, 0 0);
+}
+.search-box-two:hover{
+    background-color: #00c3ff73;
+}

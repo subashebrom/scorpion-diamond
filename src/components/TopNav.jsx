@@ -11,7 +11,7 @@ const TopNav = () => {
             <section className=''>
                 {/* === Brand === */}
                 <div className='w-[90%] md:w-[90%] md:border-r md:border-r-gray-500 md:border-l md:border-l-gray-500 md:px-2 mx-auto flex items-center justify-between py-2'>
-                    <h1 className='text-xl font-bold'>Scorpion Diamond</h1>
+                    <h1 className='text-xl font-bold flex items-center'> <img className='bg-blue-400 w-[30px] h-[30px] rounded-full mr-2' src="" alt="" />Scorpion Diamond</h1>
                     {/* === Desktop Menu Items === */}
                     <div className='md:space-x-8'>
                         <div className='hidden md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
@@ -58,7 +58,7 @@ const TopNav = () => {
                             <FontAwesomeIcon icon={faUser}/>
                             <span id='mobile' className='md:hidden'><FontAwesomeIcon icon={faBars} /></span>
                         </div>
-                        <div className='flex flex-col w-full items-center md:hidden '>
+                        <div className='hidden flex-col w-full items-center md:hidden'>
                             <div id='menu' className='absolute w-full flex flex-col  text-md font-medium top-11 text-white/90'>
                                 <NavLink className=' bg-btnbg pl-4 py-2 border-b border-b-gray-500 group transition-all duration-150 delay-75 ease-initial hover:bg-mainbg' to='/'>Home</NavLink>
                                 <NavLink className=' bg-btnbg pl-4 py-2 border-b border-b-gray-500 group transition-all duration-150 delay-75 ease-initial hover:bg-mainbg' to='/about'>About</NavLink>
