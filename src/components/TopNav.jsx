@@ -6,6 +6,7 @@ import "../js/TopNav";
 import "../css/TopNav.css";
 
 const TopNav = () => {
+    
     return (
         <div className='fixed top-0 w-full sm:w-full md:w-full bg-mainbg text-white/90 font-Ubuntu border-b border-b-gray-700 z-10'>
             <section className=''>
@@ -61,8 +62,8 @@ const TopNav = () => {
                             <FontAwesomeIcon icon={faBell}/>
                             <span id='mobile' className='md:hidden'><FontAwesomeIcon icon={faBars} /></span>
                         </div>
-                        <div className='hidden flex-col w-full items-center md:hidden'>
-                            <div id='menu' className='absolute w-full flex flex-col  text-md font-medium top-11 text-white/90'>
+                        <div id='menu' className='flex-col w-full items-center md:hidden hidden'>
+                            <div className='absolute w-full flex flex-col  text-md font-medium top-11 text-white/90'>
                                 <NavLink className=' bg-btnbg pl-4 py-2 border-b border-b-gray-500 group transition-all duration-150 delay-75 ease-initial hover:bg-mainbg' to='/'>Home</NavLink>
                                 <NavLink className=' bg-btnbg pl-4 py-2 border-b border-b-gray-500 group transition-all duration-150 delay-75 ease-initial hover:bg-mainbg' to='/about'>About</NavLink>
                                 <NavLink className=' bg-btnbg pl-4 py-2 border-b border-b-gray-500 group transition-all duration-150 delay-75 ease-initial hover:bg-mainbg' to='/contact'>Contact</NavLink>
