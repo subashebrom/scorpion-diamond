@@ -17,7 +17,7 @@ const Home = () => {
                 </div>
                 {/* ==== Game Cards === */}
                 <div className="mt-4 grid gap-6 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-4 xl:grid xl:grid-cols-4 2xl:grid 2xl:grid-cols-5">
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -29,7 +29,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/pubg.png" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -41,7 +41,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/call-of-duty.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -53,7 +53,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/valorant.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -65,7 +65,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/apex-legend.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -77,7 +77,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/warezone.webp" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -89,7 +89,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/blood-strike.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -101,7 +101,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/doom-eternal.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -113,7 +113,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/elden.webp" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -125,7 +125,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/cyberpunk.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -137,7 +137,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/fortnite.webp" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -149,7 +149,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/delta-force.jpeg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -161,7 +161,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/far-light.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -173,7 +173,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/ganshin-impact.jpeg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -185,7 +185,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/league-of-legends.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -197,7 +197,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/mobile-legend.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -209,7 +209,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/sausage-man.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -221,7 +221,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/solo-leveling.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -233,7 +233,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/call-of-duty-mobile.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -245,7 +245,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/roblox.jpeg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -257,7 +257,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/brawal-stars.jpeg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -269,7 +269,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/devil-may-cry.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -281,7 +281,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/clash-royale.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -293,7 +293,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/mortal-kombat.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -305,7 +305,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/brawl-halla.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -317,7 +317,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -329,7 +329,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -341,7 +341,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -353,7 +353,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>
@@ -365,7 +365,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="game-card">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
                         <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
                         <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                             <div className="triangle-one absolute left-0 top-0"></div>

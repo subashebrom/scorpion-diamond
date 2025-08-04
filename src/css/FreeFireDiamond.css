@@ -1,0 +1,25 @@
+.head-box{
+    clip-path: polygon(5% 0, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 30%);
+}
+.diamond-first-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b3550;
+  clip-path: polygon(100% 0, 100% 100%, 3% 100%, 0 100%, 0 0);
+}
+.diamond-second-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f1524;
+  clip-path: polygon(2% 0, 100% 0, 100% 77%, 98% 100%, 0 100%, 0 30%);
+  transition: ease-in-out 0.3s;
+}
+.diamond-third-box {
+  background-color: #2b3550;
+  clip-path: polygon(3% 0, 100% 0, 100% 60%, 97% 100%, 0 100%, 0 40%);
+}
+.diamond-second-box:hover {
+  background-color: #00c3ff73;
+}
