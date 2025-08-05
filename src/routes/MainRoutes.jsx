@@ -8,6 +8,8 @@ import Contact from './../pages/Contact';
 import Reviews from './../pages/Reviews';
 import FreeFireServer from "../pages/FreeFireServer";
 import FreeFireDiamond from "../pages/FreeFireDiamond";
+import Billing from "../pages/Billing";
+import Payment from "../pages/Payment";
 
 const MainRoutes = createBrowserRouter([
     {
@@ -45,6 +47,14 @@ const MainRoutes = createBrowserRouter([
             {
                 path: '/free-fire-diamond',
                 element: <FreeFireDiamond/>
+            },
+            {
+                path: '/billing',
+                element: <Billing/>
+            },
+            {
+                path: '/payment',
+                element: <Payment/>
             },
 
         ]

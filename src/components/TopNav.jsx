@@ -17,7 +17,7 @@ const TopNav = () => {
                     <div className='md:space-x-8'>
                         <div className='hidden md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
                             <div className='desktop-Btn'>
-                                <div className='active-Btn md:h-[40px] md:px-4 md:flex md:items-center md:bg-btnbg'>
+                                <div className='active-Btn md:h-[40px] md:px-4 md:flex md:items-center md:bg-gmbtnbg'>
                                     Home
                                 </div>
                                 <div className="top-triangle"></div>
@@ -26,7 +26,7 @@ const TopNav = () => {
                         </div>
                         <div className='hidden md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
                             <div className='desktop-Btn'>
-                                <div className='active-Btn md:h-[40px] md:px-4 md:flex md:items-center md:bg-btnbg'>
+                                <div className='active-Btn md:h-[40px] md:px-4 md:flex md:items-center md:bg-gmbtnbg'>
                                     About
                                 </div>
                                 <div className="top-triangle"></div>
@@ -35,7 +35,7 @@ const TopNav = () => {
                         </div>
                         <div className='hidden md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
                             <div className='desktop-Btn'>
-                                <div className='active-Btn md:h-[40px] md:px-4 md:flex md:items-center md:bg-btnbg'>
+                                <div className='active-Btn md:h-[40px] md:px-4 md:flex md:items-center md:bg-gmbtnbg'>
                                     Cotact
                                 </div>
                                 <div className="top-triangle"></div>
@@ -44,7 +44,7 @@ const TopNav = () => {
                         </div>
                         <div className='hidden md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
                             <div className='desktop-Btn'>
-                                <div className='active-Btn md:h-[40px] md:px-4 md:flex md:items-center md:bg-btnbg'>
+                                <div className='active-Btn md:h-[40px] md:px-4 md:flex md:items-center md:bg-gmbtnbg'>
                                     Reviews
                                 </div>
                                 <div className="top-triangle"></div>

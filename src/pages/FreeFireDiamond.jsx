@@ -7,7 +7,7 @@ import "../js/TopNav";
 
 const FreeFireDiamond = () => {
     return (
-        <div className='full bg-primarybg md:bg-mainbg text-white/90 font-Ubuntu border-b border-b-gray-700 mt-10   '>
+        <div className='w-full bg-primarybg md:bg-mainbg text-white/90 font-Ubuntu border-b border-b-gray-700 mt-10'>
             <section className='w-[90%] px-2 mx-auto pt-8  md:border-l md:border-l-gray-500 md:border-r md:border-r-gray-500 md:bg-primarybg pb-8'>
                 <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
                     <div className="triangle-one absolute left-0 top-0"></div>
@@ -1123,7 +1123,7 @@ const FreeFireDiamond = () => {
                                 <p>৪* অর্ডার করার সাথে সাথে ডেলিভারি দেওয়া হবে, ব্যতিক্রম বসত নির্ধারিত সময়ের মধ্যে ডেলিভারি না পেলে অনুগ্রহ করে আমাদের সাপোর্ট সেন্টারে যোগাযোগ করবেন।</p>
                                 <p>৫* User ID ভুল দিয়ে (নিজস্ব ভুলের কারনে) Diamond না পেলে কর্তৃপক্ষ দায় ভার নিবে না।</p>
                                 <p>৬* অর্ডার কমপ্লিট হওয়ার পরেও ID তে Diamond যায়নি এ রকম কিছু দাবি করলে কর্তৃপক্ষ আপনার ID Check করতে বাধ্য থাকিবে। (সত্যতা যাচাই করার জন্য, আপনাকে প্রথমে Game Lobby বা Diamond Section এর স্ক্রিনশট দিতে বাধ্য থাকিতে হবে, দ্বিতীয়ত Game Profile এর স্ক্রিনশট , তৃতীয়ত আপনার Game ID Pass (বাধ্যতামূলক)। আপনি ভুল প্রমাণিত হলে কর্তৃপক্ষ আপনার Aginsg এ যেকোনো ধরনের Statement নিতে পারবে।)</p>
-                                <div className='grid space-y-4 md:grid md:grid-cols-3 md:gap-4'>
+                                <div className='grid space-y-4 md:grid md:grid-cols-3 md:gap-4 sm:grid sm:grid-cols-2 sm:gap-x-4'>
                                     <img className='w-full h-40 md:h-60' src="" alt="" />
                                     <img className='w-full h-40 md:h-60' src="" alt="" />
                                     <img className='w-full h-40 md:h-60' src="" alt="" />
@@ -1139,7 +1139,7 @@ const FreeFireDiamond = () => {
                                     <p>১* আপনার ডিভাইসে থাকা Free Fire Game টি ওপেন করুন।</p>
                                     <p>২* Profile এ ক্লিক করুন (ঠিক ছবিতে যেভাবে দেওয়া আছে)।</p>
                                     <p>৩* আপনার User ID Copy করুন। (ঠিক ছবিতে যেভাবে দেওয়া আছে)।</p>
-                                    <div className='grid space-y-4 md:grid md:grid-cols-3 md:gap-4'>
+                                    <div className='grid space-y-4 md:grid md:grid-cols-3 md:gap-4 sm:grid sm:grid-cols-2 sm:gap-x-4'>
                                         <img className='w-full h-40 md:h-60' src="" alt="" />
                                         <img className='w-full h-40 md:h-60' src="" alt="" />
                                         <img className='w-full h-40 md:h-60' src="" alt="" />
