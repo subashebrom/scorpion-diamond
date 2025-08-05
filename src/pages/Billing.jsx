@@ -13,7 +13,7 @@ const Billing = () => {
                         <div className='head-box bg-primarybg w-full absolute py-6 top-0.5'></div>
                         <h1 className='head-box text-lg font-medium bg-pcbg w-full flex items-center justify-center py-2'>Your Billing Details</h1>
                     </div>
-                    <h1 className='mt-4'>We Sent You, Your Billing Details WhatsApp Number or Your Email Address</h1>
+                    <h1 className='mt-8'>We Sent You, Your Billing Details WhatsApp Number or Your Email Address</h1>
                     <div className='space-y-2'>
                         <div>
                             <p className='text-md font-medium'>WhatsApp Number</p>

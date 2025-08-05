@@ -10,6 +10,7 @@ import FreeFireServer from "../pages/FreeFireServer";
 import FreeFireDiamond from "../pages/FreeFireDiamond";
 import Billing from "../pages/Billing";
 import Payment from "../pages/Payment";
+import PubgServer from "../pages/PubgServer";
 
 const MainRoutes = createBrowserRouter([
     {
@@ -55,6 +56,10 @@ const MainRoutes = createBrowserRouter([
             {
                 path: '/payment',
                 element: <Payment/>
+            },
+            {
+                path: '/pubg-server',
+                element: <PubgServer/>
             },
 
         ]
