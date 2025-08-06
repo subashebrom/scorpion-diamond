@@ -15,6 +15,11 @@ const Home = () => {
                 {/* === Adds Sliders for Mobile === */}
                 <div>
                 </div>
+                <div className='flex items-center justify-center mt-4 relative md:w-100 '>
+                    <div className='head-box bg-[#1c243a] w-full absolute py-6 top-2'></div>
+                    <div className='head-box bg-primarybg w-full absolute py-6 top-0.5'></div>
+                    <h1 className='head-box text-lg font-medium bg-pcbg w-full flex items-center justify-center py-2'>All Games</h1>
+                </div>
                 {/* ==== Game Cards === */}
                 <div className="mt-4 grid gap-6 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-4 xl:grid xl:grid-cols-4 2xl:grid 2xl:grid-cols-5">
                     <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
@@ -181,7 +186,7 @@ const Home = () => {
                             <div className="triangle-three absolute left-0 bottom-0"></div>
                             <div className="triangle-four absolute right-0 bottom-0"></div>
                             <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
-                                <h2 className="py-2">GANSHIN IMPACT</h2>
+                                <h2 className="py-2">GENSHIN IMPACT</h2>
                             </div>
                         </div>
                     </div>
@@ -374,6 +379,142 @@ const Home = () => {
                             <div className="triangle-four absolute right-0 bottom-0"></div>
                             <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
                                 <h2 className="py-2">FREE FIRE</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='flex items-center justify-center mt-4 relative md:w-100 md:mt-16 md:mb-8'>
+                    <div className='head-box bg-[#1c243a] w-full absolute py-6 top-2'></div>
+                    <div className='head-box bg-primarybg w-full absolute py-6 top-0.5'></div>
+                    <h1 className='head-box text-lg font-medium bg-pcbg w-full flex items-center justify-center py-2'>ID Pass Login</h1>
+                </div>
+                {/* ==== Game Cards === */}
+                <div className="mt-4 grid gap-6 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-4 xl:grid xl:grid-cols-4 2xl:grid 2xl:grid-cols-5">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">FREE FIRE</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/pubg.png" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">PUBG MOBILE</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/call-of-duty.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">CALL OF DUTY</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/valorant.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">VALORANT</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/apex-legend.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">APEX LEGEND</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='flex items-center justify-center mt-4 relative md:w-100 md:mt-16 md:mb-8'>
+                    <div className='head-box bg-[#1c243a] w-full absolute py-6 top-2'></div>
+                    <div className='head-box bg-primarybg w-full absolute py-6 top-0.5'></div>
+                    <h1 className='head-box text-lg font-medium bg-pcbg w-full flex items-center justify-center py-2'>ID Pass Top Up</h1>
+                </div>
+                {/* ==== Game Cards === */}
+                <div className="mt-4 grid gap-6 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:grid lg:grid-cols-4 xl:grid xl:grid-cols-4 2xl:grid 2xl:grid-cols-5">
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/free-fire.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">FREE FIRE</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/pubg.png" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">PUBG MOBILE</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/call-of-duty.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">CALL OF DUTY</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/valorant.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">VALORANT</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="game-card cursor-pointer hover:scale-105 transition-all duration-300 delay-75 ease-in-out">
+                        <img className="image h-45 md:h-55 w-full object-cover" src="./images/apex-legend.jpg" alt="" />
+                        <div className="relative mt-2 mb-2 w-62 mx-auto flex items-center justify-center cursor-pointer">
+                            <div className="triangle-one absolute left-0 top-0"></div>
+                            <div className="triangle-two absolute right-0 top-0"></div>
+                            <div className="triangle-three absolute left-0 bottom-0"></div>
+                            <div className="triangle-four absolute right-0 bottom-0"></div>
+                            <div className="nameBtn w-60 flex items-center justify-center bg-gmbtnbg cursor-pointer">
+                                <h2 className="py-2">APEX LEGEND</h2>
                             </div>
                         </div>
                     </div>
