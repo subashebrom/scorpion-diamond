@@ -1,6 +1,54 @@
 .head-box{
     clip-path: polygon(5% 0, 100% 0, 100% 70%, 95% 100%, 0 100%, 0 30%);
 }
+.serverBtn {
+  min-width: 150px;
+  height: 40px;
+  clip-path: polygon(10% 0, 100% 0, 100% 60%, 90% 100%, 0 100%, 0 40%);
+}
+.desktop-Btn {
+  position: relative;
+}
+.desktop-Btn:hover {
+  .top-triangled {
+    visibility: visible;
+  }
+}
+
+.top-triangled {
+  position: absolute;
+  transition: ease-in-out 0.3s;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 12px;
+  background-color: #1C243A;
+  border: 1.5px solid #00c3ffd3;
+  clip-path: polygon(30% 0, 0 0, 0 100%);
+  visibility: hidden;
+}
+.desktop-Btn:hover {
+  .btm-triangled {
+    visibility: visible;
+  }
+}
+.btm-triangled {
+  position: absolute;
+  transition: ease-in-out 0.3s;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 12px;
+  background-color: #1C243A;
+  border: 1.5px solid #00c3ffd3;
+  clip-path: polygon(100% 100%, 100% 0, 70% 100%);
+  visibility: hidden;
+}
+.top-btn:hover {
+  .rtop-triangled {
+    visibility: visible;
+  }
+}
 .diamond-first-box {
   display: flex;
   align-items: center;
@@ -22,4 +70,19 @@
 }
 .diamond-second-box:hover {
   background-color: #00c3ff73;
+}
+@media (max-width: 768px){
+  .serverBtn{
+    background: #1C243A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+  }
+  .server-section{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+  }
 }

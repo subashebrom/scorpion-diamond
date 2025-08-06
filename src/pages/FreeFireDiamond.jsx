@@ -15,8 +15,8 @@ const FreeFireDiamond = () => {
                     <div className="triangle-three absolute left-0 bottom-0"></div>
                     <div className="triangle-four absolute right-0 bottom-0"></div>
                     <div className="nameBtn w-60 flex items-center justify-between px-4 bg-gmbtnbg cursor-pointer">
-                        <NavLink to='/free-fire-server'><FontAwesomeIcon icon={faChevronLeft}/></NavLink>
-                        <h2 className="py-2 text-lg">Bangladesh</h2>
+                        <NavLink to='/'><FontAwesomeIcon icon={faChevronLeft}/></NavLink>
+                        <h2 className="py-2 text-lg">FREE FIRE</h2>
                         <img className='size-8' src="/public/images/bangladesh.png" alt="" />
                     </div>
                 </div>
@@ -26,6 +26,86 @@ const FreeFireDiamond = () => {
                     <div className='head-box bg-primarybg w-full absolute py-6 top-0.5'></div>
                     <h1 className='head-box text-lg font-medium bg-pcbg w-full flex items-center justify-center py-2'>Free Fire Diamond Top Up Bangladesh</h1>
                 </div>
+                {/* === Server Name === */}
+                    <div className='server-section md:space-x-8 overflow-x-auto flex bg-pcbg px-2 py-4 mt-6'>
+                        <div className='md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
+                            <div className='desktop-Btn'>
+                                <div className='serverBtn md:h-[40px] md:px-4 md:flex md:items-center md:justify-center md:bg-gmbtnbg'>
+                                    Bangladesh
+                                </div>
+                                <div className="top-triangled"></div>
+                                <div className="btm-triangled"></div>
+                            </div>
+                        </div>
+                        <div className='md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
+                            <div className='desktop-Btn'>
+                                <div className='serverBtn md:h-[40px] md:px-4 md:flex md:items-center md:justify-center md:bg-gmbtnbg'>
+                                    India
+                                </div>
+                                <div className="top-triangled"></div>
+                                <div className="btm-triangled"></div>
+                            </div>
+                        </div>
+                        <div className='md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
+                            <div className='desktop-Btn'>
+                                <div className='serverBtn md:h-[40px] md:px-4 md:flex md:items-center md:justify-center md:bg-gmbtnbg'>
+                                    Pakistan
+                                </div>
+                                <div className="top-triangled"></div>
+                                <div className="btm-triangled"></div>
+                            </div>
+                        </div>
+                        <div className='md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
+                            <div className='desktop-Btn'>
+                                <div className='serverBtn md:h-[40px] md:px-4 md:flex md:items-center md:justify-center md:bg-gmbtnbg'>
+                                    Indonesia
+                                </div>
+                                <div className="top-triangled"></div>
+
+                                <div className="btm-triangled"></div>
+                            </div>
+                        </div>
+                        <div className='md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
+                            <div className='desktop-Btn'>
+                                <div className='serverBtn md:h-[40px] md:px-4 md:flex md:items-center md:justify-center md:bg-gmbtnbg'>
+                                    Brazil
+                                </div>
+                                <div className="top-triangled"></div>
+
+                                <div className="btm-triangled"></div>
+                            </div>
+                        </div>
+                        <div className='md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
+                            <div className='desktop-Btn'>
+                                <div className='serverBtn md:h-[40px] md:px-4 md:flex md:items-center md:justify-center md:bg-gmbtnbg'>
+                                    Mena
+                                </div>
+                                <div className="top-triangled"></div>
+
+                                <div className="btm-triangled"></div>
+                            </div>
+                        </div>
+                        <div className='md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
+                            <div className='desktop-Btn'>
+                                <div className='serverBtn md:h-[40px] md:px-4 md:flex md:items-center md:justify-center md:bg-gmbtnbg'>
+                                    Malaysia
+                                </div>
+                                <div className="top-triangled"></div>
+
+                                <div className="btm-triangled"></div>
+                            </div>
+                        </div>
+                        <div className='md:inline-block space-x-8 md:text-white/90 md:text-lg md:font-medium'>
+                            <div className='desktop-Btn'>
+                                <div className='serverBtn md:h-[40px] md:px-4 md:flex md:items-center md:justify-center md:bg-gmbtnbg'>
+                                    Singapur
+                                </div>
+                                <div className="top-triangled"></div>
+
+                                <div className="btm-triangled"></div>
+                            </div>
+                        </div>
+                    </div>
                 <div className='flex items-center justify-center mt-8 relative md:w-100 md:mx-auto'>
                     <div className='head-box bg-[#1c243a] w-full absolute py-6 top-2'></div>
                     <div className='head-box bg-primarybg w-full absolute py-6 top-0.5'></div>

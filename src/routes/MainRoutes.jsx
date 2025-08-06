@@ -6,7 +6,6 @@ import Home from "../pages/Home";
 import About from './../pages/About';
 import Contact from './../pages/Contact';
 import Reviews from './../pages/Reviews';
-import FreeFireServer from "../pages/FreeFireServer";
 import FreeFireDiamond from "../pages/FreeFireDiamond";
 import Billing from "../pages/Billing";
 import Payment from "../pages/Payment";
@@ -40,10 +39,6 @@ const MainRoutes = createBrowserRouter([
             {
                 path: '/reviews',
                 element: <Reviews/>
-            },
-            {
-                path: '/free-fire-server',
-                element: <FreeFireServer/>
             },
             {
                 path: '/free-fire-diamond',
